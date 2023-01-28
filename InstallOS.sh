@@ -167,7 +167,7 @@ function Start() {
     rm -f /tmp/InstallNET.sh
   fi
 
-  wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://raw.githubusercontent.com/yeahwu/InstallOS/main/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
+  wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://raw.githubusercontent.com/starts-sh/InstallOS/main/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
 
   DMIRROR=''
   UMIRROR=''
