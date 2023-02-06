@@ -705,7 +705,7 @@ d-i partman-auto/expert_recipe string         \
          method{ format } format{ }           \
          use_filesystem{ } filesystem{ ext4 } \
          mountpoint{ / } .                    \
-      64 512 200% linux-swap                  \
+      64 512 300% linux-swap                  \
          method{ swap } format{ } .
 d-i partman-partitioning/confirm_write_new_label boolean true
 d-i partman-auto/choose_recipe select boot-root
